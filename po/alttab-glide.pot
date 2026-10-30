@@ -1,0 +1,256 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the alttab-glide@wvmj-dev.github.io package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: alttab-glide@wvmj-dev.github.io\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-29 21:19-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: prefs.js:85
+msgid "Preview"
+msgstr ""
+
+#: prefs.js:86
+msgid "Moves like the real switcher, with the settings below."
+msgstr ""
+
+#: prefs.js:95
+msgid "Appearance"
+msgstr ""
+
+#: prefs.js:102
+msgid "Highlight"
+msgstr ""
+
+#: prefs.js:103
+msgid "Changes apply the next time the switcher opens."
+msgstr ""
+
+#: prefs.js:108
+msgid "Custom color"
+msgstr ""
+
+#: prefs.js:109
+msgid "Use this color instead of the system accent color"
+msgstr ""
+
+#: prefs.js:145
+msgid "Opacity (%)"
+msgstr ""
+
+#: prefs.js:146
+msgid "Lower values let the icons behind show through"
+msgstr ""
+
+#: prefs.js:147
+msgid "Corner radius (px)"
+msgstr ""
+
+#: prefs.js:148
+msgid "Border width (px)"
+msgstr ""
+
+#: prefs.js:149
+msgid "0 draws no border"
+msgstr ""
+
+#: prefs.js:150
+msgid "Selected item size (%)"
+msgstr ""
+
+#: prefs.js:151
+msgid "100 turns the growth off"
+msgstr ""
+
+#: prefs.js:156
+msgid "Animation"
+msgstr ""
+
+#: prefs.js:163
+msgid "Transition"
+msgstr ""
+
+#: prefs.js:164
+msgid ""
+"How the highlight moves when another item is selected. It follows GNOME's "
+"Animations setting: with animations off, it jumps."
+msgstr ""
+
+#: prefs.js:167
+msgid "Style"
+msgstr ""
+
+#: prefs.js:168
+msgid "Slide"
+msgstr ""
+
+#: prefs.js:169
+msgid "Stretch"
+msgstr ""
+
+#: prefs.js:170
+msgid "Liquid"
+msgstr ""
+
+#: prefs.js:171
+msgid "Jelly"
+msgstr ""
+
+#: prefs.js:172
+msgid "Pop"
+msgstr ""
+
+#: prefs.js:173
+msgid "Fade"
+msgstr ""
+
+#: prefs.js:174
+msgid "None"
+msgstr ""
+
+#: prefs.js:176
+msgid "Duration (ms)"
+msgstr ""
+
+#: prefs.js:177
+msgid "Curve"
+msgstr ""
+
+#: prefs.js:178
+msgid "Smooth"
+msgstr ""
+
+#: prefs.js:179
+msgid "Overshoot"
+msgstr ""
+
+#: prefs.js:180
+msgid "Bounce"
+msgstr ""
+
+#: prefs.js:181
+msgid "Elastic"
+msgstr ""
+
+#: prefs.js:182
+msgid "Linear"
+msgstr ""
+
+#: prefs.js:184
+msgid "Rebound (%)"
+msgstr ""
+
+#: prefs.js:185
+msgid "How far the curve goes past the item, or how high it bounces"
+msgstr ""
+
+#: prefs.js:188
+msgid "Fine-tuning"
+msgstr ""
+
+#: prefs.js:191
+msgid "Time stretched over both items (%)"
+msgstr ""
+
+#: prefs.js:192
+msgid "How liquid (%)"
+msgstr ""
+
+#: prefs.js:193
+msgid "Higher pulls the drop longer, with a thinner tail and neck"
+msgstr ""
+
+#: prefs.js:195
+msgid "Bounce (%)"
+msgstr ""
+
+#: prefs.js:196
+msgid "How far it springs past the item"
+msgstr ""
+
+#: prefs.js:197
+msgid "Wobbles"
+msgstr ""
+
+#: prefs.js:198
+msgid "How many times it swings before it settles"
+msgstr ""
+
+#: prefs.js:199
+msgid "Stretch (%)"
+msgstr ""
+
+#: prefs.js:200
+msgid "How much it stretches while moving fast"
+msgstr ""
+
+#: prefs.js:202
+msgid "Shrinks to (%)"
+msgstr ""
+
+#: prefs.js:203
+msgid "Size between the two items, relative to an item"
+msgstr ""
+
+#: prefs.js:207
+msgid "Moves to the next item in one motion"
+msgstr ""
+
+#: prefs.js:208
+msgid "Reaches over both items, then lets go"
+msgstr ""
+
+#: prefs.js:209
+msgid "Flows like a drop, with a thin neck"
+msgstr ""
+
+#: prefs.js:210
+msgid "Springs past the item and wobbles back"
+msgstr ""
+
+#: prefs.js:211
+msgid "Shrinks, then grows out of the next item"
+msgstr ""
+
+#: prefs.js:212
+msgid "Fades out and back in on the next item"
+msgstr ""
+
+#: prefs.js:213
+msgid "Jumps to the next item"
+msgstr ""
+
+#: prefs.js:223
+msgid "Not used by this style"
+msgstr ""
+
+#: prefs.js:235
+msgid "Reset All Settings"
+msgstr ""
+
+#: prefs.js:239
+msgid "Reset all settings?"
+msgstr ""
+
+#: prefs.js:240
+msgid "Every option goes back to its default."
+msgstr ""
+
+#: prefs.js:244
+msgid "Cancel"
+msgstr ""
+
+#: prefs.js:245
+msgid "Reset"
+msgstr ""

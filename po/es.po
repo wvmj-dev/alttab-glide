@@ -1,0 +1,258 @@
+# Alt Tab Glide translation.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the alttab-glide@wvmj-dev.github.io package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: alttab-glide@wvmj-dev.github.io\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-29 19:54-0300\n"
+"PO-Revision-Date: 2026-10-29 19:00-0300\n"
+"Last-Translator: Wender13 <77487372+Wender13@users.noreply.github.com>\n"
+"Language-Team: none\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: prefs.js:85
+msgid "Preview"
+msgstr "Vista previa"
+
+#: prefs.js:86
+msgid "Moves like the real switcher, with the settings below."
+msgstr "Se mueve como el selector real, con la configuración de abajo."
+
+#: prefs.js:95
+msgid "Appearance"
+msgstr "Apariencia"
+
+#: prefs.js:102
+msgid "Highlight"
+msgstr "Resaltado"
+
+#: prefs.js:103
+msgid "Changes apply the next time the switcher opens."
+msgstr "Los cambios se aplican la próxima vez que se abra el selector."
+
+#: prefs.js:108
+msgid "Custom color"
+msgstr "Color personalizado"
+
+#: prefs.js:109
+msgid "Use this color instead of the system accent color"
+msgstr "Usar este color en lugar del color de acento del sistema"
+
+#: prefs.js:145
+msgid "Opacity (%)"
+msgstr "Opacidad (%)"
+
+#: prefs.js:146
+msgid "Lower values let the icons behind show through"
+msgstr "Los valores más bajos dejan ver los iconos de detrás"
+
+#: prefs.js:147
+msgid "Corner radius (px)"
+msgstr "Radio de las esquinas (px)"
+
+#: prefs.js:148
+msgid "Border width (px)"
+msgstr "Grosor del borde (px)"
+
+#: prefs.js:149
+msgid "0 draws no border"
+msgstr "0 no dibuja borde"
+
+#: prefs.js:150
+msgid "Selected item size (%)"
+msgstr "Tamaño del elemento seleccionado (%)"
+
+#: prefs.js:151
+msgid "100 turns the growth off"
+msgstr "100 desactiva el aumento"
+
+#: prefs.js:156
+msgid "Animation"
+msgstr "Animación"
+
+#: prefs.js:163
+msgid "Transition"
+msgstr "Transición"
+
+#: prefs.js:164
+msgid ""
+"How the highlight moves when another item is selected. It follows GNOME's "
+"Animations setting: with animations off, it jumps."
+msgstr ""
+"Cómo se mueve el resaltado cuando se selecciona otro elemento. Sigue la "
+"opción Animaciones de GNOME: con las animaciones desactivadas, salta."
+
+#: prefs.js:167
+msgid "Style"
+msgstr "Estilo"
+
+#: prefs.js:168
+msgid "Slide"
+msgstr "Deslizar"
+
+#: prefs.js:169
+msgid "Stretch"
+msgstr "Estirar"
+
+#: prefs.js:170
+msgid "Liquid"
+msgstr "Líquido"
+
+#: prefs.js:171
+msgid "Jelly"
+msgstr "Gelatina"
+
+#: prefs.js:172
+msgid "Pop"
+msgstr "Pop"
+
+#: prefs.js:173
+msgid "Fade"
+msgstr "Desvanecer"
+
+#: prefs.js:174
+msgid "None"
+msgstr "Ninguna"
+
+#: prefs.js:176
+msgid "Duration (ms)"
+msgstr "Duración (ms)"
+
+#: prefs.js:177
+msgid "Curve"
+msgstr "Curva"
+
+#: prefs.js:178
+msgid "Smooth"
+msgstr "Suave"
+
+#: prefs.js:179
+msgid "Overshoot"
+msgstr "Rebasar"
+
+#: prefs.js:180
+msgid "Bounce"
+msgstr "Rebotar"
+
+#: prefs.js:181
+msgid "Elastic"
+msgstr "Elástica"
+
+#: prefs.js:182
+msgid "Linear"
+msgstr "Lineal"
+
+#: prefs.js:184
+msgid "Rebound (%)"
+msgstr "Rebote (%)"
+
+#: prefs.js:185
+msgid "How far the curve goes past the item, or how high it bounces"
+msgstr "Cuánto se pasa la curva del elemento, o la altura de los rebotes"
+
+#: prefs.js:188
+msgid "Fine-tuning"
+msgstr "Ajuste fino"
+
+#: prefs.js:191
+msgid "Time stretched over both items (%)"
+msgstr "Tiempo estirado sobre ambos elementos (%)"
+
+#: prefs.js:192
+msgid "How liquid (%)"
+msgstr "Qué tan líquido (%)"
+
+#: prefs.js:193
+msgid "Higher pulls the drop longer, with a thinner tail and neck"
+msgstr "Más alto estira más la gota, con cola y cuello más finos"
+
+#: prefs.js:195
+msgid "Bounce (%)"
+msgstr "Rebote (%)"
+
+#: prefs.js:196
+msgid "How far it springs past the item"
+msgstr "Cuánto se pasa del elemento como un resorte"
+
+#: prefs.js:197
+msgid "Wobbles"
+msgstr "Oscilaciones"
+
+#: prefs.js:198
+msgid "How many times it swings before it settles"
+msgstr "Cuántas veces oscila antes de detenerse"
+
+#: prefs.js:199
+msgid "Stretch (%)"
+msgstr "Estiramiento (%)"
+
+#: prefs.js:200
+msgid "How much it stretches while moving fast"
+msgstr "Cuánto se estira mientras va rápido"
+
+#: prefs.js:202
+msgid "Shrinks to (%)"
+msgstr "Se encoge hasta (%)"
+
+#: prefs.js:203
+msgid "Size between the two items, relative to an item"
+msgstr "Tamaño entre los dos elementos, respecto a un elemento"
+
+#: prefs.js:207
+msgid "Moves to the next item in one motion"
+msgstr "Va al siguiente elemento en un solo movimiento"
+
+#: prefs.js:208
+msgid "Reaches over both items, then lets go"
+msgstr "Se extiende sobre ambos elementos y luego suelta"
+
+#: prefs.js:209
+msgid "Flows like a drop, with a thin neck"
+msgstr "Fluye como una gota, con un cuello fino"
+
+#: prefs.js:210
+msgid "Springs past the item and wobbles back"
+msgstr "Se pasa del elemento como un resorte y vuelve oscilando"
+
+#: prefs.js:211
+msgid "Shrinks, then grows out of the next item"
+msgstr "Se encoge y luego brota del siguiente elemento"
+
+#: prefs.js:212
+msgid "Fades out and back in on the next item"
+msgstr "Desaparece y reaparece en el siguiente elemento"
+
+#: prefs.js:213
+msgid "Jumps to the next item"
+msgstr "Salta al siguiente elemento"
+
+#: prefs.js:223
+msgid "Not used by this style"
+msgstr "No se usa con este estilo"
+
+#: prefs.js:235
+msgid "Reset All Settings"
+msgstr "Restablecer toda la configuración"
+
+#: prefs.js:239
+msgid "Reset all settings?"
+msgstr "¿Restablecer toda la configuración?"
+
+#: prefs.js:240
+msgid "Every option goes back to its default."
+msgstr "Todas las opciones vuelven a su valor predeterminado."
+
+#: prefs.js:244
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: prefs.js:245
+msgid "Reset"
+msgstr "Restablecer"
