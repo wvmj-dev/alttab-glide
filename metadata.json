@@ -1,0 +1,14 @@
+{
+  "uuid": "alttab-glide@wvmj-dev.github.io",
+  "name": "Alt Tab Glide",
+  "description": "Keeps GNOME's own Alt+Tab switcher and gives the selected item a rounded highlight in the accent color, which slides, stretches, flows like a liquid drop, springs like jelly, pops or fades to the next item. Tune the color, opacity, corners, border, the selected item's growth and every animation, with a live preview in the preferences.",
+  "settings-schema": "org.gnome.shell.extensions.alttab-glide",
+  "gettext-domain": "alttab-glide",
+  "shell-version": [
+    "48",
+    "49",
+    "50"
+  ],
+  "version": 1,
+  "url": "https://github.com/wvmj-dev/alttab-glide"
+}

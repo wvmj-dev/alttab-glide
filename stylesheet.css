@@ -1,0 +1,31 @@
+/* Alt Tab Glide. The switcher is dark in both the light and dark styles,
+   so one stylesheet covers both. */
+
+/* The highlight drawn behind the selected item (highlight.js). The opacity,
+   border width, corner radius and a custom color come as an inline style;
+   the accent color is read from here. */
+.atg-highlight {
+  background-color: -st-accent-color;
+  border: 2px solid st-transparentize(#ffffff, 0.35);
+  border-radius: 16px;
+  transition-duration: 150ms;
+}
+
+/* The app keeps only an outline while the keyboard is on its thumbnails. */
+.atg-highlight:outlined {
+  background-color: transparent;
+  border-color: -st-accent-color;
+}
+
+/* The highlight replaces GNOME's own backgrounds of the selected item. */
+.switcher-list.atg-list .item-box:selected,
+.switcher-list.atg-list .item-box:highlighted,
+.switcher-list.atg-list .item-box:hover,
+.switcher-list.atg-list .item-box:focus {
+  background-color: transparent;
+  box-shadow: none !important;
+}
+
+.switcher-list.atg-list .item-box:selected {
+  color: -st-accent-fg-color;
+}

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.alttab-glide"
+          path="/org/gnome/shell/extensions/alttab-glide/">
+    <!-- Transition -->
+    <key name="animation" type="s">
+      <choices>
+        <choice value="slide"/>
+        <choice value="stretch"/>
+        <choice value="liquid"/>
+        <choice value="jelly"/>
+        <choice value="pop"/>
+        <choice value="fade"/>
+        <choice value="none"/>
+      </choices>
+      <default>'slide'</default>
+      <summary>How the highlight moves to the next item</summary>
+      <description>slide moves it in one motion; stretch reaches out to the next item before letting go of the previous one; liquid flows like a drop, its head first and its tail after, with a thin neck between them; jelly springs past the item and wobbles back, stretching while fast; pop shrinks on the previous item and grows out of the next one; fade dims it out and back in on the next item; none jumps. The curve does not apply to liquid and jelly, which have their own motion.</description>
+    </key>
+    <key name="animation-duration" type="i">
+      <range min="50" max="1000"/>
+      <default>220</default>
+      <summary>Length of the animation in milliseconds</summary>
+    </key>
+    <key name="animation-curve" type="s">
+      <choices>
+        <choice value="smooth"/>
+        <choice value="overshoot"/>
+        <choice value="bounce"/>
+        <choice value="elastic"/>
+        <choice value="linear"/>
+      </choices>
+      <default>'smooth'</default>
+      <summary>Speed curve of the animation</summary>
+      <description>smooth slows down at the end; overshoot goes past the item and springs back; bounce lands like a dropped ball; elastic swings around the item a few times; linear keeps the same speed.</description>
+    </key>
+    <key name="curve-rebound" type="i">
+      <range min="0" max="100"/>
+      <default>50</default>
+      <summary>Rebound of the overshoot, bounce and elastic curves</summary>
+      <description>How far they go past the item, or how high they bounce, in percent. 50 is the usual amount.</description>
+    </key>
+
+    <!-- Style tuning -->
+    <key name="stretch-reach" type="i">
+      <range min="20" max="70"/>
+      <default>40</default>
+      <summary>Share of the stretch animation spent reaching over both items, in percent</summary>
+    </key>
+    <key name="liquid-viscosity" type="i">
+      <range min="0" max="100"/>
+      <default>50</default>
+      <summary>How liquid the liquid style is</summary>
+      <description>Higher values pull the head further ahead of the tail and make the tail and the neck between them thinner.</description>
+    </key>
+    <key name="jelly-bounce" type="i">
+      <range min="0" max="100"/>
+      <default>50</default>
+      <summary>How far the jelly springs past the item</summary>
+    </key>
+    <key name="jelly-wobbles" type="i">
+      <range min="1" max="4"/>
+      <default>2</default>
+      <summary>How many times the jelly wobbles before it settles</summary>
+    </key>
+    <key name="jelly-stretch" type="i">
+      <range min="0" max="60"/>
+      <default>30</default>
+      <summary>How much the jelly stretches while moving fast, in percent</summary>
+    </key>
+    <key name="pop-size" type="i">
+      <range min="0" max="80"/>
+      <default>30</default>
+      <summary>How small the pop animation shrinks the highlight, in percent of the item</summary>
+    </key>
+
+    <!-- Appearance -->
+    <key name="highlight-color" type="s">
+      <default>''</default>
+      <summary>Highlight color</summary>
+      <description>A color as #rrggbb. Empty uses the system accent color.</description>
+    </key>
+    <key name="highlight-opacity" type="i">
+      <range min="20" max="100"/>
+      <default>100</default>
+      <summary>Opacity of the highlight's fill, in percent</summary>
+    </key>
+    <key name="corner-radius" type="i">
+      <range min="0" max="48"/>
+      <default>16</default>
+      <summary>Corner radius of the highlight in pixels</summary>
+    </key>
+    <key name="border-width" type="i">
+      <range min="0" max="6"/>
+      <default>2</default>
+      <summary>Width of the light border around the highlight in pixels</summary>
+      <description>0 draws no border. The outline that marks the app while its window thumbnails are open is always at least 2 pixels.</description>
+    </key>
+    <key name="focus-scale" type="i">
+      <range min="100" max="115"/>
+      <default>105</default>
+      <summary>Size of the selected item in percent</summary>
+      <description>100 turns the growth off.</description>
+    </key>
+  </schema>
+</schemalist>
