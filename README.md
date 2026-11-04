@@ -43,7 +43,7 @@ The screenshots are taken by the [smoke test](#smoke-test-buildsh-test) in a hea
 
 ## Quick start
 
-On GNOME Shell 48, 49 or 50 (Fedora: `sudo dnf install gnome-shell gjs glib2 gettext`, usually already installed):
+On GNOME Shell 48, 49, 50 or 51 (Fedora: `sudo dnf install gnome-shell gjs glib2 gettext`, usually already installed):
 
 ```sh
 git clone https://github.com/wvmj-dev/alttab-glide.git
@@ -96,7 +96,7 @@ More in [Installation](#installation), [Usage](#usage) and [Settings](#settings)
 
 | Package (Fedora) | Version | Provides | Used for |
 |---|---|---|---|
-| `gnome-shell` | 48, 49 or 50 | GNOME Shell and the `gnome-extensions` command | Running, enabling and packing the extension |
+| `gnome-shell` | 48, 49, 50 or 51 | GNOME Shell and the `gnome-extensions` command | Running, enabling and packing the extension |
 | `gjs` | the one shipped with GNOME | GNOME's JavaScript interpreter | Running the extension, the preferences and the unit tests |
 | `glib2` | any recent | `glib-compile-schemas` | Compiling the settings schema |
 | `gettext` | any recent | `msgfmt`, `xgettext`, `msgmerge` | Compiling and updating translations |
@@ -609,11 +609,11 @@ After changing texts in the code, run `./build.sh pot` and fill in the new or `f
 
 ### Tested
 
-- GNOME Shell 50 (Fedora 44), Wayland, scale 1× and 2×, through the automated tests above.
+- GNOME Shell 50 (Fedora 44) and 51.1 (Fedora 45), Wayland, scale 1× and 2×, through the automated tests above.
 
 ### Not yet tested
 
-- **GNOME Shell 48 and 49:** `metadata.json` declares support, but only 50 was tested. The extension relies on `SwitcherList` internals (`_list`, `_scrollView`, `_items`), which are private and may change between versions. The preview's accent color needs libadwaita 1.6 (GNOME 47+); older versions fall back to GNOME blue.
+- **GNOME Shell 48 and 49:** `metadata.json` declares support, but only 50 and 51 were tested. The extension relies on `SwitcherList` internals (`_list`, `_scrollView`, `_items`), which are private and may change between versions. The preview's accent color needs libadwaita 1.6 (GNOME 47+); older versions fall back to GNOME blue.
 - **Real key presses:** the smoke test selects items the way the keyboard does, but cannot press `Alt+Tab`.
 - **Lists long enough to scroll**, multiple monitors and right-to-left languages.
 
