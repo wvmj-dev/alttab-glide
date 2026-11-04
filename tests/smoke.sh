@@ -52,8 +52,14 @@ EOF
 
     export ATG_SMOKE_INNER=1 ATG_UUID=$uuid ATG_OUT=$out ATG_WORK=$work
     status=0
+    # A private runtime directory too: the test shell would otherwise share
+    # the real session's Wayland sockets and its crash guard file
+    # (gnome-shell-disable-extensions), which every shell deletes 60 s after
+    # startup, logging a JS ERROR when another shell already did.
+    runtime="$work/runtime"
+    mkdir -m 700 "$runtime"
     # Services on the private bus are chatty; keep their output in a file.
-    dbus-run-session -- "$0" 2>"$out/session.log" || status=$?
+    XDG_RUNTIME_DIR=$runtime dbus-run-session -- "$0" 2>"$out/session.log" || status=$?
     reset_test_db
     exit $status
 fi
