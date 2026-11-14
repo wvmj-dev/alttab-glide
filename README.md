@@ -472,6 +472,8 @@ The list of extension files lives in one variable (`SOURCES` in `build.sh`), use
 - **Settings:** its own dconf database (`alttab_glide_test`). The script refuses to wipe it unless the test profile is active.
 - **Files:** a temporary `XDG_DATA_HOME`, where the extension is staged from the working tree (`build.sh stage`) and the test apps get their `.desktop` files. The copy installed in `~/.local` is neither used nor changed.
 
+**Display:** apps started through D-Bus activation, like the preferences, inherit the bus's environment, which points at your real session's display. The test points them at the headless shell's display, or their windows would open on your desktop.
+
 **Helper extension:** to drive the shell over D-Bus (`org.gnome.Shell.Eval` and `Screenshot`), the test installs the `tests/devtools/` extension, which turns on GNOME Shell's "unsafe mode". It goes only into that throwaway session, never into your session or the `.zip`.
 
 ### CI

@@ -128,6 +128,13 @@ for _ in $(seq 1 60); do
     sleep 0.5
 done
 expect "$EXT.state === 1" "extension did not start"
+# Apps started through D-Bus activation (the preferences) inherit the bus's
+# environment, which points at the real session's display: point them at
+# the headless shell's instead, or their windows open on the user's desktop.
+displays=$(js "[imports.gi.GLib.getenv('WAYLAND_DISPLAY'), imports.gi.GLib.getenv('DISPLAY')].join(' ')")
+read -r wayland x11 <<<"$(sed "s/^(true, '\"\(.*\)\"')$/\1/" <<<"$displays")"
+[[ $wayland == wayland-* ]] || { echo "FAILED: headless shell's display not found: $displays"; exit 1; }
+dbus-update-activation-environment "WAYLAND_DISPLAY=$wayland" "DISPLAY=${x11:-}"
 run "Main.overview.hide(); import('resource:///org/gnome/shell/ui/altTab.js').then(m => { global._atgAltTab = m; }); 1"
 pause 1
 
